@@ -1,0 +1,69 @@
+.auth-line {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  background: #333333;
+  align-items: center;
+
+  .auth-line_button {
+    margin: 0 1%;
+    padding: 15px 0;
+
+    .auth-line_link {
+      text-decoration: none;
+      color: #999999;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      .auth-line_link {
+        color: white;
+      }
+    }
+  }
+
+  .__basket {
+    margin-left: 4%;
+    margin-right: 22%;
+    background: #00c8c8;
+
+    span {
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .auth-line_link {
+      margin-right: 20px;
+    }
+  }
+
+}
+
+@media (max-width: 320px) {
+  .auth-line {
+    font-size: 14px;
+
+    .auth-line_button {
+      margin: 0 1%;
+      padding: 5px 0;
+    }
+
+    .__basket {
+      margin-left: 2%;
+      margin-right: 10%;
+
+      span {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .auth-line_link {
+        margin-right: 10px;
+      }
+    }
+  }
+}
