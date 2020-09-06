@@ -8,7 +8,7 @@ import {Provider} from 'react-redux'
 
 import 'normalize.css'
 
-import "./index.scss"
+import "./pages/mainPage/index.scss"
 
 import routes from './routes'
 import createRootReducer from './reducers'

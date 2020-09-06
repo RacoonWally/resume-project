@@ -1,11 +1,12 @@
 import React, {Component} from "react";
+import './index.scss'
 
 import Header from "../../components/header";
 
 class MainPage extends Component {
     render() {
         return(
-            <div>
+            <div className='main-page'>
                 <Header />
             </div>
         )
