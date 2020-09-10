@@ -29,13 +29,15 @@
         cursor: pointer;
       }
 
-
       &:hover{
-        color: #00c8c8;
 
         .categories{
           display: block;
         }
+      }
+
+      .__hover:hover{
+        color: #00c8c8;
       }
 
     }
@@ -85,12 +87,14 @@
 @media (max-width: 768px) {
   .nav-bar {
     margin: 20px 10px;
+
     .nav-bar_title {
       font-size: 20px;
     }
 
     .nav-bar_menu {
       font-size: 12px;
+      font-weight: bold;
       grid-template-columns: repeat(2, auto);
     }
   }
