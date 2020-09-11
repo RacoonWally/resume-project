@@ -24,10 +24,13 @@ const MainBody = () => {
                             </div>
                         </div>
                         <div className='main-body_card-list_item_pic'>
-                            <img src="../../../public/images/item_1.png" alt=""/>
+
+                                <img src="../../../public/images/item_1.png" alt=""/>
+
                         </div>
                         <div className='main-body_card-list_item_description'>
-                            descr
+                            <div className="__title">WOMENS BURNT ORANGE CASUAL TEE <span>&#163;</span>29.95</div>
+                            <div>Classic casual t-shirt for women on the move.<br/>100% cotton</div>
                         </div>
                     </div>
                     <div className='main-body_card-list_item'>
@@ -41,7 +44,8 @@ const MainBody = () => {
                             <img src="../../../public/images/item_2.png" alt=""/>
                         </div>
                         <div className='main-body_card-list_item_description'>
-                            descr
+                            <div className="__title">WOMENS BURNT ORANGE CASUAL TEE <span>&#163;</span>29.95</div>
+                            <div>Classic casual t-shirt for women on the move.<br/>100% cotton</div>
                         </div>
                     </div>
                     <div className='main-body_card-list_item'>
@@ -55,7 +59,8 @@ const MainBody = () => {
                             <img src="../../../public/images/item_3.png" alt=""/>
                         </div>
                         <div className='main-body_card-list_item_description'>
-                            descr
+                            <div className="__title">WOMENS BURNT ORANGE CASUAL TEE <span>&#163;</span>29.95</div>
+                            <div>Classic casual t-shirt for women on the move.<br/>100% cotton</div>
                         </div>
                     </div>
                     <div className='main-body_card-list_item'>
@@ -69,7 +74,8 @@ const MainBody = () => {
                             <img src="../../../public/images/item_4.png" alt=""/>
                         </div>
                         <div className='main-body_card-list_item_description'>
-                            descr
+                            <div className="__title">WOMENS BURNT ORANGE CASUAL TEE <span>&#163;</span>29.95</div>
+                            <div>Classic casual t-shirt for women on the move.<br/>100% cotton</div>
                         </div>
                     </div>
                     <div className='main-body_card-list_item'>
@@ -84,7 +90,8 @@ const MainBody = () => {
                         </div>
 
                         <div className='main-body_card-list_item_description'>
-                            descr
+                            <div className="__title">WOMENS BURNT ORANGE CASUAL TEE <span>&#163;</span>29.95</div>
+                            <div>Classic casual t-shirt for women on the move.<br/>100% cotton</div>
                         </div>
                     </div>
                     <div className='main-body_card-list_item'>
@@ -97,14 +104,14 @@ const MainBody = () => {
                         <div className='main-body_card-list_item_pic'>
                             <img src="../../../public/images/item_6.png" alt=""/>
                         </div>
-                        <div className='main-body_card-list_item_description'>
-                            descr
+                        <div className='test'>
+                            <div className='main-body_card-list_item_description'>
+                                <div className="__title">WOMENS BURNT ORANGE CASUAL TEE <span>&#163;</span>29.95</div>
+                                <div>Classic casual t-shirt for women on the move.<br/>100% cotton</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     )
