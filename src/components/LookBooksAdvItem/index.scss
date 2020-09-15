@@ -1,0 +1,79 @@
+
+.look-books-adv-item {
+
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px 0 30px;
+
+  .look-books-adv-item_image {
+    flex-basis: 50%;
+    width: 100%;
+    img {
+      display: block;
+      max-width: 100%;
+      height:auto;
+    }
+  }
+
+  .look-books-adv-item_text{
+    flex-basis: 55%;
+    margin-left: 15px;
+    text-align: end;
+    overflow-wrap: break-word;
+
+
+    .look-books-adv-item_text_title{
+      font-size: 43pt;
+      p{
+        margin: 0;
+        .__bold{
+          font-weight: bold;
+        }
+      }
+    }
+
+    .look-books-adv-item_text_descr{
+      font-size: 12pt;
+      color: #8d8d8d;
+    }
+
+    .look-books-adv-item_text_button{
+      display: inline-block;
+    }
+  }
+}
+
+
+@media (max-width: 1600px) {
+
+  .look-books-adv-item {
+
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px 0 30px;
+
+    .look-books-adv-item_image {
+
+    }
+
+    .look-books-adv-item_text{
+
+      margin-left: 10px;
+      text-align: end;
+      overflow-wrap: break-word;
+
+
+      .look-books-adv-item_text_title{
+        font-size: 30pt;
+      }
+
+      .look-books-adv-item_text_descr{
+        font-size: 10pt;
+
+      }
+    }
+  }
+
+}

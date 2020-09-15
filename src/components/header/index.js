@@ -19,7 +19,7 @@ class Header extends Component {
                         <div className='header-background_label'>
                             <label>A V E</label>
                         </div>
-                        <div className='header-background_button'>
+                        <div className='header-background_button button'>
                             <Link to='/' className='header-background_button_link'>SHOP MEN'S COLLECTION</Link>
                         </div>
                     </div>

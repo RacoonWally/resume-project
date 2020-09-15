@@ -3,6 +3,8 @@ import './index.scss'
 
 import Header from "../../components/header";
 import MainBody from "../../components/main-body";
+import LookBooksAdv from "../../components/lookBooksAdv";
+import Footer from "../../components/footer";
 
 class MainPage extends Component {
     render() {
@@ -10,6 +12,8 @@ class MainPage extends Component {
             <div className='main-page'>
                 <Header />
                 <MainBody />
+                <LookBooksAdv/>
+                <Footer/>
             </div>
         )
     }

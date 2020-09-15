@@ -1,0 +1,20 @@
+.icon-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  color: white;
+  padding-left: -10px;
+
+  div {
+    padding: 7px;
+    margin-left: 10px;
+    background: gray;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+    &:hover {
+      background: #00c8c8;
+    }
+  }
+}
