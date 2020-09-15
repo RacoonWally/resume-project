@@ -1,0 +1,77 @@
+.address {
+
+  .address-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .address-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #f8f8f8;
+
+    .address-description_map {
+      flex-basis: 70%;
+      display: flex;
+      align-items: center;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+
+    }
+
+    .address-description_text {
+      flex-basis: 28%;
+      font-size: 13pt;
+      color: #a5a3a3;
+      margin: 20px;
+
+      .__title {
+        font-weight: bold;
+        color: #575153;
+        font-size: 15pt;
+      }
+
+      .__subtitle {
+        color: #727272;
+        font-weight: bold;
+      }
+
+      span {
+        margin-right: 5px;
+      }
+
+      .address-description_socials {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: white;
+
+
+        .__icon {
+          background: #727272;
+          padding-top: 5px;
+          width: 30px;
+          height: 30px;
+          border: 1px solid #727272;
+          border-radius: 50%;
+          margin-right: 15px;
+          text-align: center;
+
+          &:hover {
+            cursor: pointer;
+            color: #00c8c8;
+          }
+
+        }
+      }
+    }
+  }
+}

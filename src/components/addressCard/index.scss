@@ -1,0 +1,24 @@
+.address-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 400px;
+  margin: 60px 30px;
+
+
+  .address-cart_text {
+    font-size: 15pt;
+    color: #a5a3a3;
+  }
+
+  .__title{
+    font-weight: bold;
+    color: #575153;
+    font-size: 18pt;
+  }
+
+  .__subtitle{
+    color: #727272;
+    font-weight: bold;
+  }
+}

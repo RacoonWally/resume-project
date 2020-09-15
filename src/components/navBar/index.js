@@ -46,7 +46,7 @@ const NavBar = () => {
             </div>
             <div className='nav-bar_menu_search'>
                 <input type="text" placeholder='Search...'/>
-                <div className='nav-bar_menu_search_button'>git checkout
+                <div className='nav-bar_menu_search_button'>
                     <Link to='/'><i className="fa fa-search" aria-hidden="true"></i></Link>
                 </div>
             </div>
