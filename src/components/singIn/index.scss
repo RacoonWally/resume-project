@@ -1,0 +1,41 @@
+.sing-in {
+  max-width: 550px;
+
+  .sing-in_input-fields {
+
+    .sing-in_input {
+      max-width: 550px;
+      height: 40px;
+      margin-top: 35px;
+      margin-bottom: 30px;
+
+      input {
+        border: 1px solid #e7e7e7;
+        outline: #e7e7e7;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .sing-in_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .sing-in_button {
+      font-size: 16pt;
+    }
+
+    .sing-in_link {
+
+      .sing-in_link-forget {
+        text-decoration: none;
+        color: #00c8c8;
+        font-size: 15pt;
+      }
+
+    }
+  }
+}

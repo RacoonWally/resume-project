@@ -1,0 +1,18 @@
+.product-view-item-description{
+    width: 100%;
+    padding-left: 4%;
+
+  .product-view-item-description_buttons-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    .product-view-item-description_button{
+      border: none;
+
+      &:hover{
+        background-color: black;
+      }
+    }
+  }
+}

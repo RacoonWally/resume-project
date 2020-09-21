@@ -1,0 +1,42 @@
+.look-book-banner {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("../../../public/images/lookbook-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  .look-book-banner_descr {
+    margin-left: 22px;
+    font-size: 13pt;
+    color: #727272;
+
+    .__title {
+      max-width: 530px;
+      color: #575153;
+      font-size: 35pt;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    .__subtitle {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .__text {
+      max-width: 330px;
+      margin-top: 20px;
+    }
+
+    .look-book_button {
+      margin-top: 20px;
+    }
+  }
+
+}

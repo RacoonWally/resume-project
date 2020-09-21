@@ -1,0 +1,47 @@
+.sing-up-body {
+
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .sing-in {
+    flex-basis: 25%;
+  }
+
+  .register {
+    flex-basis: 25%;
+  }
+
+  .sing-up-body_line {
+    margin-right: 35px;
+    margin-left: 35px;
+    width: 1px;
+    border: 0.5px solid #eeeeee;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .sing-up-body {
+
+    .sing-in {
+      flex-basis: 15%;
+    }
+
+    .register {
+      flex-basis: 15%;
+    }
+  }
+
+}
+
+@media (max-width: 375px) {
+  .sing-up-body {
+    .sing-up-body_line {
+      display: none;
+
+    }
+  }
+}

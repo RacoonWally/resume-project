@@ -2,23 +2,24 @@
   box-sizing: border-box;
 }
 
-.main-body {
+.look-books-body {
   margin-left: 4%;
   margin-right: 4%;
 
-  .main-body_line {
+  .look-books-body_line {
     margin: 60px auto;
     border: 1px solid #eeeeee;
   }
 
-  .main-body_menu {
+  .look-books-body_menu {
     font-size: 17px;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
 
-    .main-body_menu_item {
+    .look-books-body_menu-item {
+      margin-right: 30px;
 
       label:hover {
         color: #00c8c8;
@@ -27,7 +28,7 @@
     }
   }
 
-  .main-body_cards-list {
+  .look-books-body_cards-list {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -36,23 +37,25 @@
     min-height: 0;
 
 
-    .cards-list_item:nth-child(6n + 3) {
+    .look-book-banner:nth-of-type(3) {
       grid-column: span 2;
-      grid-row: span 2;
+      grid-row: span 1;
     }
 
-    .cards-list_item:nth-child(6n + 4) {
-      grid-column: span 2;
-      grid-row: span 2;
+    .look-book-banner:nth-of-type(8) {
+      grid-column: span 3;
+      grid-row: span 1;
     }
+
   }
 }
 
 @media (max-width: 1000px) {
-  .main-body {
+  .look-books-body {
 
-    .main-body_cards-list {
+    .look-books-body_cards-list {
       grid-template-columns: repeat(2, 1fr);
     }
   }
+
 }

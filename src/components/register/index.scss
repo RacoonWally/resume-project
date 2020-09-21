@@ -1,0 +1,66 @@
+.register {
+  max-width: 550px;
+
+  .register_input-fields {
+
+    .register_input {
+      max-width: 550px;
+      height: 40px;
+      margin-top: 35px;
+      margin-bottom: 30px;
+
+      input {
+        border: 1px solid #e7e7e7;
+        outline: #e7e7e7;
+        height: 100%;
+        width: 100%;
+      }
+
+    }
+
+    .register_checkbox {
+      color: #989898;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+
+      div {
+        margin-right: 5px;
+
+        input {
+          width: 25px;
+          height: 25px;
+        }
+      }
+
+    }
+  }
+
+  .register_buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .register_button {
+      font-size: 16pt;
+      margin-right: 30px;
+    }
+
+    .register_link {
+      text-decoration: none;
+      color: #989898;
+      font-size: 15pt;
+
+      .register_link-policy {
+
+        color: #00c8c8;
+
+      }
+
+    }
+  }
+
+
+}

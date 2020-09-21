@@ -1,15 +1,15 @@
-.main-body_cards-list_item {
+.cards-list_item {
   position: relative;
   min-width: 0;
   min-height: 0;
   background-color: #fff;
   height: auto;
 
-  .main-body_card-list_item_price-container {
+  .card-list_item_price-container {
     font-size: 21pt;
     color: gray;
 
-    .main-body_card-list_item_price_absolute {
+    .card-list_item_price_absolute {
       position: absolute;
       z-index: 1;
       display: flex;
@@ -17,7 +17,7 @@
       margin-left: 10px;
       margin-top: 5px;
 
-      .main-body_card-list_item_price_icon {
+      .card-list_item_price_icon {
         margin-top: -8px;
 
         span {
@@ -28,12 +28,12 @@
   }
 
 
-  .main-body_cards-list_item_inner {
+  .cards-list_item_inner {
     width: 100%;
     background-color: #fff;
     z-index: 2;
 
-    .main-body_cards-list_item_inner_image {
+    .cards-list_item_inner_image {
       position: relative;
       overflow: hidden;
       display: block;
@@ -50,7 +50,7 @@
       }
     }
 
-    .main-body_cards-list_item_inner_info {
+    .cards-list_item_inner_info {
       display: none;
 
     }
@@ -60,18 +60,18 @@
     width: 100%;
     height: 100%;
 
-    .main-body_card-list_item_price-container {
+    .card-list_item_price-container {
 
-      .main-body_card-list_item_price_absolute {
+      .card-list_item_price_absolute {
         z-index: 3;
       }
     }
 
-    .main-body_cards-list_item_inner {
+    .cards-list_item_inner {
       position: absolute;
       box-shadow: 0 0 4rem 0 rgba(0, 0, 0, .08);
 
-      .main-body_cards-list_item_inner_info {
+      .cards-list_item_inner_info {
         display: flex;
         flex-direction: column;
         text-align: center;

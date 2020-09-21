@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LookBooksAdv from "../lookBooksAdv";
+
 import CartItem from "../cartItem";
 
 import './index.scss';

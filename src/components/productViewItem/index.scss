@@ -1,0 +1,131 @@
+.product-item {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .product-item_slider{
+    flex-basis: 40%;
+    margin-right: 50px;
+  }
+
+  .product-item_description {
+    flex-basis: 50%;
+
+    .product-item_description_price {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      color: #a1a1a1;
+      font-size: 30pt;
+
+      .product-item_description_price-string {
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+
+        .product-item_description_price_icon {
+          margin-top: 5px;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .product-item-description_market-descr {
+      margin-top: 40px;
+
+      div {
+        margin-top: 10px;
+      }
+
+      span {
+        font-weight: bold;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #00c8c8;
+      }
+    }
+
+    ul {
+      li {
+        color: #d3d3d3;
+      }
+    }
+
+    .product-item_selectors-bar {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+
+      .product-item_selector-group{
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+
+        .product-item_selector{
+          margin-top: 20px;
+
+           select{
+             padding: 10px;
+             color: #a1a1a1;
+             border:1px solid #a1a1a1;
+             outline: #a1a1a1;
+             width: 170px;
+           }
+
+          input{
+            color: #a1a1a1;
+            border:1px solid #a1a1a1;
+            height: 40px;
+            width: 70px;
+            outline: #a1a1a1;
+          }
+
+          input::placeholder{
+            color: #a1a1a1;
+          }
+        }
+
+      }
+    }
+
+    .product-item_buttons{
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+
+      .__black-buttons{
+        margin-right: 20px;
+        background: white;
+
+        &:hover{
+          background: black;
+          border: 2px solid black;
+        }
+      }
+    }
+
+    .product-item_compare{
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+
+      .product-item_compare-icon{;
+        padding: 4px 6px;
+        border-radius: 50%;
+        color: white;
+        background: #727272;
+      }
+    }
+  }
+}
+
+.__line-through {
+  text-decoration: line-through;
+}

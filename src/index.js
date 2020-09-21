@@ -8,7 +8,7 @@ import {Provider} from 'react-redux'
 
 import 'normalize.css'
 
-import "./pages/mainPage/index.scss"
+import "./index.scss"
 
 import routes from './routes'
 import createRootReducer from './reducers'
@@ -16,7 +16,6 @@ import createRootReducer from './reducers'
 
 const history = createBrowserHistory();
 
-// Регистрация Middeware для Асинхронных запросов
 const middlewares = [thunk, routerMiddleware(history)];
 
 const store = createStore(createRootReducer(history),

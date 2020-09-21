@@ -1,4 +1,5 @@
 .brand_banner {
+
   margin-top: 30px;
   user-select: none;
   overflow: hidden;
@@ -6,6 +7,7 @@
   height: 450px;
 
   .brand_banner_image {
+    z-index: -1;
     position: absolute;
     width: 100%;
     margin: 0 auto;
@@ -13,6 +15,7 @@
     overflow: hidden;
 
     .brand_banner_darked {
+
       position: absolute;
       background: black;
       filter: opacity(55%);
@@ -21,11 +24,13 @@
     }
 
     .brand_banner_inner {
+
       margin-top: -100px;
     }
   }
 
   .brand_banner_name {
+    z-index: -1;
     padding-left: 14%;
     letter-spacing: 40px;
     padding-top: 9%;
@@ -37,6 +42,7 @@
   }
 
   .brand_banner_text {
+    z-index: -1;
     position: absolute;
     text-align: center;
     left: 0;
