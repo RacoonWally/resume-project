@@ -1,4 +1,4 @@
-.look-books-adv{
+.look-books__adv{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   justify-content: flex-start;
@@ -8,13 +8,13 @@
 
 
 @media (max-width: 1300px) {
-  .look-books-adv{
+  .look-books__adv{
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 900px) {
-  .look-books-adv{
+  .look-books__adv{
     grid-template-columns: repeat(1, 1fr);
   }
 }

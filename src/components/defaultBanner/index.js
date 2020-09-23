@@ -4,18 +4,18 @@ import './index.scss'
 
 const DefaultBanner = () => {
     return (
-        <div className='brand_banner'>
-            <div className='brand_banner_image'>
-                <div className='brand_banner_darked'>
+        <div className='brand-banner'>
+            <div className='brand-banner__image'>
+                <div className='brand-banner__dark'>
                 </div>
-                <div className='brand_banner_inner'>
+                <div className='brand-banner__inner'>
                     <img src="../../../public/images/brand_banner.png" alt=""/>
                 </div>
             </div>
-            <div className='brand_banner_name'>
+            <div className='brand-banner__name'>
                 A V E
             </div>
-            <div className='brand_banner_text'>
+            <div className='brand-banner__text'>
                 <div><span>THE</span> BRAND</div>
                 <div>COMPANY SLOGAN GOES HERE</div>
             </div>

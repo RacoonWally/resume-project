@@ -9,7 +9,7 @@ import SingUpBody from "../../components/singUpBody";
 
 const SingUpPage = () => {
     return(
-        <div className='sing-up-page'>
+        <div className='sing-up__page'>
             <AuthLine/>
             <NavBar/>
             <DefaultBanner/>

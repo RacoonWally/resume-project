@@ -1,9 +1,9 @@
 .sing-in {
   max-width: 550px;
 
-  .sing-in_input-fields {
+  .sing-in__input-fields {
 
-    .sing-in_input {
+    .sing-in__input {
       max-width: 550px;
       height: 40px;
       margin-top: 35px;
@@ -18,19 +18,19 @@
     }
   }
 
-  .sing-in_buttons {
+  .sing-in__buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    .sing-in_button {
+    .sing-in__button {
       font-size: 16pt;
     }
 
-    .sing-in_link {
+    .sing-in__link {
 
-      .sing-in_link-forget {
+      .sing-in__forget {
         text-decoration: none;
         color: #00c8c8;
         font-size: 15pt;

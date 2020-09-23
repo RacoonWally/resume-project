@@ -6,9 +6,9 @@ import Register from "../register";
 
 const SingUpBody = () => {
     return (
-        <div className='sing-up-body'>
+        <div className='sing-up__body'>
             <SingIn/>
-            <div className='sing-up-body_line'></div>
+            <div className='sing-up__line'></div>
             <Register/>
         </div>
     )

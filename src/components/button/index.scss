@@ -1,0 +1,21 @@
+.button{
+  padding: 20px 30px;
+  width: max-content;
+  border: 2px solid #737373;
+  z-index: 1;
+  cursor: pointer;
+
+  &__link{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #454647;
+    font-size: 17px;
+  }
+
+  &:hover{
+    border: 2px solid #00c8c8;
+    background: #00c8c8;
+    color: white;
+
+  }
+}

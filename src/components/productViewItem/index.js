@@ -48,8 +48,8 @@ const ProductViewItem = () => {
                     <div className='product-item_selector-group'>
                         <label htmlFor="color" className='__title'>COLOUR</label>
                         <div className='product-item_selector'>
-                            <select name='color'>
-                                <option defaultValue="" disabled selected>Select Color</option>
+                            <select name='color' defaultValue='default' >
+                                <option defaultValue="default" disabled >Select Color</option>
                                 <option value="1">red</option>
                                 <option value="2">blue</option>
                                 <option value="3">white</option>
@@ -60,8 +60,8 @@ const ProductViewItem = () => {
                     <div className='product-item_selector-group'>
                         <label htmlFor="" className='__title'>SIZE</label>
                         <div className='product-item_selector'>
-                            <select>
-                                <option defaultValue="" disabled selected>Select Size</option>
+                            <select defaultValue='default'>
+                                <option value="default" disabled>Select Size</option>
                                 <option value="1">40</option>
                                 <option value="2">41</option>
                                 <option value="3">42</option>

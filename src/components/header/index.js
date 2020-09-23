@@ -1,36 +1,37 @@
-import React, {Component} from "react";
+import React from "react";
 import {Link} from "react-router-dom";
 
 import AuthLine from "../authLine";
 import NavBar from "../navBar";
 
 import './index.scss'
+import Button from "../button";
 
-class Header extends Component {
+const Header = () => {
 
-    render() {
-        return (
-            <div className='header'>
-                <div>
-                    <AuthLine/>
-                </div>
-                <div className='header-background'>
-                    <div className='header-background_image'>
-                        <div className='header-background_label'>
-                            <label>A V E</label>
-                        </div>
-                        <div className='header-background_button button'>
-                            <Link to='/' className='header-background_button_link'>SHOP MEN'S COLLECTION</Link>
-                        </div>
+    const data = {
+        subclasses: "header__button",
+        text: "SHOP MEN'S COLLECTION"
+    };
+
+    return (
+        <div className='header'>
+            <div>
+                <AuthLine/>
+            </div>
+            <div className='header__background'>
+                <div className='header__image'>
+                    <div className='header__label'>
+                        <label>A V E</label>
                     </div>
-                </div>
-                <div>
-                    <NavBar/>
+                    <Button data={data}/>
                 </div>
             </div>
-        )
-    }
-
-}
+            <div>
+                <NavBar/>
+            </div>
+        </div>
+    )
+};
 
 export default Header

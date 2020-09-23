@@ -1,4 +1,4 @@
-.sing-up-body {
+.sing-up__body {
 
   margin-top: 60px;
   display: flex;
@@ -14,7 +14,7 @@
     flex-basis: 25%;
   }
 
-  .sing-up-body_line {
+  .sing-up__line {
     margin-right: 35px;
     margin-left: 35px;
     width: 1px;
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 768px) {
-  .sing-up-body {
+  .sing-up__body {
 
     .sing-in {
       flex-basis: 15%;
@@ -38,10 +38,10 @@
 }
 
 @media (max-width: 375px) {
-  .sing-up-body {
-    .sing-up-body_line {
-      display: none;
+  .sing-up__body {
 
+    .sing-up__line {
+      display: none;
     }
   }
 }

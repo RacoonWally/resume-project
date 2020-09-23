@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from "react-router";
+import {Switch, Route, Redirect} from "react-router";
 
 import MainPage from './pages/mainPage'
 import BrandPage from "./pages/brandPage";
@@ -17,6 +17,7 @@ export default (
         <Route path='/local-stores' component={LocalStoresPage}/>
         <Route path='/sing-up' component={SingUpPage}/>
         <Route path='/look-book' component={LookBookPage}/>
-        <Route path='/product-view' component={ProductViewPage}/>
+        <Route path='/product-view/:id' render={()=><ProductViewPage/>}/>
+        <Redirect to='/'/>
     </Switch>
 );

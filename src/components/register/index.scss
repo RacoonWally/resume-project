@@ -1,9 +1,9 @@
 .register {
   max-width: 550px;
 
-  .register_input-fields {
+  .register__input-fields {
 
-    .register_input {
+    .register__input {
       max-width: 550px;
       height: 40px;
       margin-top: 35px;
@@ -18,7 +18,7 @@
 
     }
 
-    .register_checkbox {
+    .register__checkbox {
       color: #989898;
       display: flex;
       justify-content: flex-start;
@@ -36,24 +36,24 @@
     }
   }
 
-  .register_buttons {
+  .register__buttons {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    .register_button {
+    .register__button {
       font-size: 16pt;
       margin-right: 30px;
     }
 
-    .register_link {
+    .register__link {
       text-decoration: none;
       color: #989898;
       font-size: 15pt;
 
-      .register_link-policy {
+      .register__policy {
 
         color: #00c8c8;
 

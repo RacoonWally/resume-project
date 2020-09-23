@@ -1,4 +1,4 @@
-.brand_banner {
+.brand-banner {
 
   margin-top: 30px;
   user-select: none;
@@ -6,7 +6,7 @@
   width: 100%;
   height: 450px;
 
-  .brand_banner_image {
+  .brand-banner__image {
     z-index: -1;
     position: absolute;
     width: 100%;
@@ -14,7 +14,7 @@
     max-height: 450px;
     overflow: hidden;
 
-    .brand_banner_darked {
+    .brand-banner__dark {
 
       position: absolute;
       background: black;
@@ -23,13 +23,13 @@
       height: 100%;
     }
 
-    .brand_banner_inner {
+    .brand-banner__inner {
 
       margin-top: -100px;
     }
   }
 
-  .brand_banner_name {
+  .brand-banner__name {
     z-index: -1;
     padding-left: 14%;
     letter-spacing: 40px;
@@ -41,7 +41,7 @@
     font-weight: bold;
   }
 
-  .brand_banner_text {
+  .brand-banner__text {
     z-index: -1;
     position: absolute;
     text-align: center;

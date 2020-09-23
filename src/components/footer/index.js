@@ -2,91 +2,49 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 import './index.scss'
+import FooterLink from "../footerLink";
 
 const Footer = () => {
     return (
         <div className='footer'>
-            <div className='footer_column-list'>
-                <div className='footer_column'>
-                    <div className='__title'>INFORMATION</div>
-                    <div>
-                        <Link className='footer_link' to='/'>The brand</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Local stores</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Customer service</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Privacy & cookies</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Site map</Link>
-                    </div>
+            <div className='footer__column-list'>
+                <div className='footer__column'>
+                    <div className='footer__title'>INFORMATION</div>
+                    <FooterLink name="The brand" link={'/'}/>
+                    <FooterLink name="Local stores" link={'/'}/>
+                    <FooterLink name="Customer service" link={'/'}/>
+                    <FooterLink name="Privacy & cookies" link={'/'}/>
+                    <FooterLink name="Site map" link={'/'}/>
                 </div>
-                <div className='footer_column'>
-                    <div className='__title'>WHY BUY FROM US</div>
-                    <div>
-                        <Link className='footer_link' to='/'>Shipping & returns</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Secure shopping</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Testimonials</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Award winning</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Ethical trading</Link>
-                    </div>
+                <div className='footer__column'>
+                    <div className='footer__title'>WHY BUY FROM US</div>
+                    <FooterLink name="The brand" link={'/'}/>
+                    <FooterLink name="Shipping & returns" link={'/'}/>
+                    <FooterLink name="Secure shopping" link={'/'}/>
+                    <FooterLink name="Testimonials" link={'/'}/>
+                    <FooterLink name="Award winning" link={'/'}/>
+                    <FooterLink name="Ethical trading" link={'/'}/>
                 </div>
-                <div className='footer_column'>
-                    <div className='__title'>YOUR ACCOUNT</div>
-                    <div>
-                        <Link className='footer_link' to='/'>Sing in</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Register</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>View cart</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>View your lookbook</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Track an order</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Update information</Link>
-                    </div>
+                <div className='footer__column'>
+                    <div className='footer__title'>YOUR ACCOUNT</div>
+                    <FooterLink name="Sing in" link={'/'}/>
+                    <FooterLink name="Register" link={'/'}/>
+                    <FooterLink name="View cart" link={'/'}/>
+                    <FooterLink name="View your lookbook" link={'/'}/>
+                    <FooterLink name="Track an order" link={'/'}/>
+                    <FooterLink name="Update information" link={'/'}/>
                 </div>
-                <div className='footer_column'>
-                    <div className='__title'>LOOKBOOK</div>
-                    <div>
-                        <Link className='footer_link' to='/'>Latest posts</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Men's lookbook</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Women's lookbook</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Lookbook RSS feed</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>View your lookbook</Link>
-                    </div>
-                    <div>
-                        <Link className='footer_link' to='/'>Delete your lookbook</Link>
-                    </div>
+                <div className='footer__column'>
+                    <div className='footer__title'>LOOKBOOK</div>
+                    <FooterLink name="Latest posts" link={'/'}/>
+                    <FooterLink name="Men's lookbook" link={'/'}/>
+                    <FooterLink name="Women's lookbook" link={'/'}/>
+                    <FooterLink name="Lookbook RSS feed" link={'/'}/>
+                    <FooterLink name="View your lookbook" link={'/'}/>
+                    <FooterLink name="Delete your lookbook" link={'/'}/>
                 </div>
-                <div className='footer_column'>
-                    <div className='__title'>CONTACT DETAILS</div>
+                <div className='footer__column'>
+                    <div className='footer__title'>CONTACT DETAILS</div>
                     <div>
                         <p>Head Office Avenue Fashion.<br/>180-182 Regent Street London</p>
                     </div>
@@ -98,11 +56,11 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='footer_banners'>
-                <div className='footer_banner __award'>
+            <div className='footer__banners'>
+                <div className='footer__banner banner__award'>
                     <p><span>AWARD WINNER</span><br/>FASHION AWARDS 2016</p>
                 </div>
-                <div className='footer_banner __socials'>
+                <div className='footer__banner banner__socials'>
                         <div><i className="fa fa-facebook" aria-hidden="true"></i></div>
                         <div><i className="fa fa-twitter" aria-hidden="true"></i></div>
                         <div><i className="fa fa-instagram" aria-hidden="true"></i></div>

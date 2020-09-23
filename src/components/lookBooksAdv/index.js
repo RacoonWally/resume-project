@@ -6,7 +6,7 @@ import './index.scss'
 
 const LookBooksAdv = () => {
   return(
-      <div className='look-books-adv'>
+      <div className='look-books__adv'>
           <LookBooksAdvItem/>
           <LookBooksAdvItem/>
           <LookBooksAdvItem/>

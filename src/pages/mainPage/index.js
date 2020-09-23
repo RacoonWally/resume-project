@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 
 import './index.scss'
 
@@ -9,8 +9,8 @@ import Footer from "../../components/footer";
 
 
 
-class MainPage extends Component {
-    render() {
+const MainPage = () =>{
+
         return(
             <div className='main-page'>
                 <Header />
@@ -19,6 +19,7 @@ class MainPage extends Component {
                 <Footer/>
             </div>
         )
-    }
-}
+
+};
+
 export default MainPage;
