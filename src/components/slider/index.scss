@@ -1,7 +1,7 @@
 .slider {
   position: relative;
 
-  .slider-image {
+  .slider__image {
     position: relative;
     overflow: hidden;
     display: none;
@@ -22,12 +22,22 @@
   }
 
 
-  .slider_arrow {
+  .slider__arrow {
     position: absolute;
     width: 40px;
     margin-top: 300px;
     z-index: 1;
     font-size: 40pt;
+
+    &__left {
+      text-align: left;
+      left: 0;
+    }
+
+    &__right {
+      text-align: right;
+      right: 0;
+    }
 
 
     &:hover {
@@ -42,20 +52,12 @@
     }
   }
 
-  ._left {
-    text-align: left;
-    left: 0;
-  }
 
-  ._right {
-    text-align: right;
-    right: 0;
-  }
 }
 
 @media (max-width: 470px) {
   .slider {
-    .slider-image {
+    .slider__image {
       height: 400px;
     }
   }

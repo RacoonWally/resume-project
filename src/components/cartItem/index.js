@@ -9,22 +9,22 @@ class CartItem extends Component {
 
     render() {
         return (
-            <div className="cards-list_item">
+            <div className="cards-list__item">
                 <Link to='/product-view'>
-                    <div className="card-list_item_price-container">
-                        <div className="card-list_item_price_absolute">
-                            <div className="card-list_item_price_icon">
+                    <div className="card-list__container">
+                        <div className="card-list__absolute">
+                            <div className="card-list__icon">
                                 <span>&#163;</span>
                             </div>
                             89.99
                         </div>
                     </div>
-                    <div className="cards-list_item_inner">
-                        <div className="cards-list_item_inner_image">
+                    <div className="cards-list__inner">
+                        <div className="cards-list__image">
                             <img src="../../../public/images/item_1.png" alt=""/>
                         </div>
-                        <div className="cards-list_item_inner_info">
-                            <div className='__title'>
+                        <div className="cards-list__info">
+                            <div className='title'>
                                 <p>WOMENS BURNT ORANGE CASUAL TEE &#163;29.95</p>
                             </div>
                             <div>

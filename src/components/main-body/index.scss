@@ -6,19 +6,19 @@
   margin-left: 4%;
   margin-right: 4%;
 
-  .main-body_line {
+  .main-body__line {
     margin: 60px auto;
     border: 1px solid #eeeeee;
   }
 
-  .main-body_menu {
+  .main-body__menu {
     font-size: 17px;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    .main-body_menu_item {
+    .main-body__item {
 
       label:hover {
         color: #00c8c8;
@@ -27,7 +27,7 @@
     }
   }
 
-  .main-body_cards-list {
+  .main-body__cards-list {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -36,12 +36,12 @@
     min-height: 0;
 
 
-    .cards-list_item:nth-child(6n + 3) {
+    .cards-list__item:nth-child(6n + 3) {
       grid-column: span 2;
       grid-row: span 2;
     }
 
-    .cards-list_item:nth-child(6n + 4) {
+    .cards-list__item:nth-child(6n + 4) {
       grid-column: span 2;
       grid-row: span 2;
     }
@@ -51,7 +51,7 @@
 @media (max-width: 1000px) {
   .main-body {
 
-    .main-body_cards-list {
+    .main-body__cards-list {
       grid-template-columns: repeat(2, 1fr);
     }
   }

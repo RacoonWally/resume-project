@@ -9,7 +9,7 @@ import DefaultBanner from "../../components/defaultBanner";
 
 const LocalStoresPage = () => {
     return (
-        <div>
+        <div className='local-stores-page'>
             <AuthLine/>
             <NavBar/>
             <DefaultBanner/>

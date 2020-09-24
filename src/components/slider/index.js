@@ -57,19 +57,19 @@ const Slider = (props) => {
 
 
         <div className='slider'>
-            <div className='slider_arrow _left' onClick={(e) => arrowClickLeft()}>
+            <div className='slider__arrow slider__arrow__left' onClick={(e) => arrowClickLeft()}>
                 <i className="fa fa-angle-left" aria-hidden="true"></i>
             </div>
-            <div className='slider_arrow _right' onClick={(e) => arrowClickRight()}>
+            <div className='slider__arrow slider__arrow__right' onClick={(e) => arrowClickRight()}>
                 <i className="fa fa-angle-right" aria-hidden="true"></i>
             </div>
-            <div className={`slider-image + ${className1}`}>
+            <div className={`slider__image + ${className1}`}>
                 <img src="../../../public/images/slider-image.png" alt=""/>
             </div>
-            <div className={`slider-image + ${className2}`}>
+            <div className={`slider__image + ${className2}`}>
                 <img src="../../../public/images/item_1.png" alt=""/>
             </div>
-            <div className={`slider-image + ${className3}`}>
+            <div className={`slider__image + ${className3}`}>
                 <img src="../../../public/images/item_2.png" alt=""/>
             </div>
         </div>

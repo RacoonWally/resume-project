@@ -9,15 +9,15 @@ const MainBody = () => {
 
     return (
         <div className='main-body'>
-            <div className='main-body_line'></div>
-            <div className='main-body_menu'>
-                <div className='main-body_menu_item'><label>POPULAR</label></div>
-                <div className='main-body_menu_item'><label>NEW ARRIVALS</label></div>
-                <div className='main-body_menu_item'><label>BEST SELLERS</label></div>
-                <div className='main-body_menu_item'><label>SPECIAL OFFERS</label></div>
-                <div className='main-body_menu_item'><label>COMING SOON</label></div>
+            <div className='main-body__line'></div>
+            <div className='main-body__menu'>
+                <div className='main-body__item'><label>POPULAR</label></div>
+                <div className='main-body__item'><label>NEW ARRIVALS</label></div>
+                <div className='main-body__item'><label>BEST SELLERS</label></div>
+                <div className='main-body__item'><label>SPECIAL OFFERS</label></div>
+                <div className='main-body__item'><label>COMING SOON</label></div>
             </div>
-            <section className="main-body_cards-list">
+            <section className="main-body__cards-list">
                 <CartItem/>
                 <CartItem/>
                 <CartItem/>
